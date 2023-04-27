@@ -1,0 +1,33 @@
+.ant-form-item-label > label {
+    font-size: 2.5vh;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    font-size: 3vh;
+}
+
+.ant-input {
+    font-size: 2.5vh;
+}
+
+.ant-checkbox-inner {
+    width: 2.5vh;
+    height: 2.5vh;
+}
+
+.ant-checkbox + span {
+    font-size: 2vh;
+}
+
+.ant-btn > span {
+    font-size: 2.5vh;
+    line-height: 100%;
+    text-align: center;
+}
+
+.ant-btn-primary {
+    border-radius: 4px;
+    height: 5vh;
+    width: 10vh;
+    margin-left: 6vh;
+}
